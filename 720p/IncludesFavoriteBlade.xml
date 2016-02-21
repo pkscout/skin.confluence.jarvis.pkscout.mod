@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	<include name="FavoriteBladeWithImage">
+				<left>390r</left>
+				<top>250</top>
+				<width>450</width>
+				<height>380</height>
+	</include>
+	<include name="FavoriteBladeNoImage">
+				<left>390r</left>
+				<top>60</top>
+				<width>450</width>
+				<height>570</height>
+	</include>
+</includes>

@@ -14,6 +14,7 @@
 	<include file="IncludesHomeRecentlyAddedContent.xml" />
 	<include file="IncludesHomeMenuItems.xml" />
 	<include file="IncludesPVR.xml" />
+	<include file="IncludesFavoriteBlade.xml" />
 	<include file="IncludesBackgroundBuilding.xml" />
 	<!-- CONSTANTS -->
 	<constant name="FanartCrossfadeTime">500</constant>

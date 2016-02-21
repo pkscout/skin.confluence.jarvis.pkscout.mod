@@ -44,12 +44,11 @@
 				<texture>$INFO[ListItem.Icon]</texture>
 				<bordertexture border="8">ThumbShadow.png</bordertexture>
 				<bordersize>8</bordersize>
+				<visible>![Skin.HasSetting(HideFavoritesImage)]</visible>
 			</control>
 			<control type="list" id="450">
-				<left>390r</left>
-				<top>250</top>
-				<width>450</width>
-				<height>380</height>
+                <include condition="Skin.HasSetting(HideFavoritesImage)">FavoriteBladeNoImage</include>
+                <include condition="![Skin.HasSetting(HideFavoritesImage)]">FavoriteBladeWithImage</include>
 				<onup>450</onup>
 				<onleft>Dialog.Close(Favourites)</onleft>
 				<onright>450</onright>
