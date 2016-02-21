@@ -122,6 +122,7 @@
 					<label>19163</label>
 					<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVRecordings)</onclick>
 					<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioRecordings)</onclick>
+		 			<visible>!Skin.HasSetting(HomeMenuNoRecordings)</visible>
 				</control>
 				<control type="button" id="103">
 					<description>Timers</description>

@@ -265,6 +265,7 @@
 			<include>ButtonHomeSubCommonValues</include>
 			<label>19163</label>
 			<onclick>ActivateWindow(TVRecordings)</onclick>
+			<visible>!Skin.HasSetting(HomeMenuNoRecordings)</visible>
 		</control>
 		<control type="button" id="90146">
 			<include>ButtonHomeSubCommonValues</include>
