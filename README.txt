@@ -11,9 +11,6 @@ FEATURES
 - Clock and weather persistent across most screens (when clock is enabled)
 - Kodi label moved to lower right corner and is persistent (RSS feeds shifted accordingly)
 - option to show/hide Recordings links in TV
-- if you are running NextPVR and XNEWA, options are available to use portions of XNEWA
-  instead of the default PVR interfaces under LiveTV
-  http://forums.gbpvr.com/forumdisplay.php?55-X-NEWA
 - option to show/hide TV episode/season numbers on home screen (hidden by default)
 - option to show/hide music disc numbers on home screen/music visualization (hidden by default)
 - option to hide image preview in favorites blade and show more favorites on one screen
