@@ -14,3 +14,5 @@ FEATURES
 - option to show/hide TV episode/season numbers on home screen (hidden by default)
 - option to show/hide music disc numbers on home screen/music visualization (hidden by default)
 - option to hide image preview in favorites blade and show more favorites on one screen
+- if you are running NextPVR and XNEWA, options are available to use portions of XNEWA
+  instead of the default PVR interfaces under LiveTV

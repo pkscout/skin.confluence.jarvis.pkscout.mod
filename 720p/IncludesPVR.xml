@@ -114,8 +114,17 @@
 					<onclick condition="Window.IsActive(TVGuide) | Window.IsActive(RadioGuide)">NextChannelGroup</onclick>
 					<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVGuide)</onclick>
 					<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioGuide)</onclick>
+					<visible>![System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAEPG)]</visible>
 				</control>
 				<control type="button" id="102">
+					<description>XNEWA EPG</description>
+					<textwidth>235</textwidth>
+					<include>ButtonCommonValues</include>
+					<label>22020</label>
+					<onclick>RunAddon(script.xbmc.x-newa, epg)</onclick>
+					<visible>System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAEPG)</visible>
+				</control>
+				<control type="button" id="103">
 					<description>Recordings</description>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues</include>
@@ -124,15 +133,48 @@
 					<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioRecordings)</onclick>
 		 			<visible>!Skin.HasSetting(HomeMenuNoRecordings)</visible>
 				</control>
-				<control type="button" id="103">
+				<control type="button" id="104">
 					<description>Timers</description>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues</include>
 					<label>19040</label>
 					<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVTimers)</onclick>
 					<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioTimers)</onclick>
+					<visible>!Skin.HasSetting(HideKodiTimers)</visible>
 				</control>
-				<control type="button" id="104">
+				<control type="button" id="105">
+					<description>XNEWA Upcoming Recordings</description>
+					<textwidth>235</textwidth>
+					<include>ButtonCommonValues</include>
+					<label>$ADDON[script.module.cmpl 30008]</label>
+					<onclick>RunAddon(script.xbmc.x-newa, upcoming)</onclick>
+					<visible>System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWATimer)</visible>
+				</control>
+				<control type="button" id="106">
+					<description>XNEWA Recurring Schedules</description>
+					<textwidth>235</textwidth>
+					<include>ButtonCommonValues</include>
+					<label>$ADDON[script.module.cmpl 30009]</label>
+					<onclick>RunAddon(script.xbmc.x-newa, schedules)</onclick>
+					<visible>System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWASchedules)</visible>
+				</control>
+				<control type="button" id="107">
+					<description>XNEWA WebClient</description>
+					<textwidth>235</textwidth>
+					<include>ButtonCommonValues</include>
+					<label>$ADDON[script.module.cmpl 30007]</label>
+					<onclick>RunAddon(script.xbmc.x-newa, webclient)</onclick>
+					<visible>System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAWebClient)</visible>
+				</control>
+				<control type="button" id="108">
+					<description>XNEWA Dashboard</description>
+					<textwidth>235</textwidth>
+					<include>ButtonCommonValues</include>
+					<label>$ADDON[script.module.cmpl 30010]</label>
+					<onclick>RunAddon(script.xbmc.x-newa)</onclick>
+					<visible>System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWADashboard)</visible>
+				</control>
+				<control type="button" id="109">
 					<description>Search</description>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues</include>
