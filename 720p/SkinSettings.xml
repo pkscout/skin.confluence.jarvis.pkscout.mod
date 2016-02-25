@@ -279,6 +279,18 @@
 						<onclick>Skin.ToggleSetting(HideEPGwithRDS)</onclick>
 						<selected>Skin.HasSetting(HideEPGwithRDS)</selected>
 					</control>
+					<control type="radiobutton" id="117">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$ADDON[script.module.cmpl 30016]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(ShortDateOnClock)</onclick>
+						<selected>Skin.HasSetting(ShortDateOnClock)</selected>
+					</control>
 					<control type="label" id="106">
 						<width>750</width>
 						<height>45</height>

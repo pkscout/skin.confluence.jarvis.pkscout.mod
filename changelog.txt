@@ -17,6 +17,9 @@ FEATURES
 - if you are running NextPVR and XNEWA, options are available to use portions of XNEWA
   instead of the default PVR interfaces under LiveTV
 
+v.4.0.3
+- added option for shorter date format with clock
+
 v.4.0.2
 - fixed XNEWA integration into LiveTV sub-menu 
 
