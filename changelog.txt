@@ -5,10 +5,9 @@ FEATURES
   http://forum.kodi.tv/showthread.php?tid=210063
 - support for Revamp theme by uNiversal (enabled by default)
   http://forum.xbmc.org/showthread.php?tid=203291
-- support for Modern theme by thewarm
-  http://forum.kodi.tv/showthread.php?tid=213706&pid=1902944#pid1902944
 - update to MediaView3 to show episode count in TV show list
 - Clock and weather persistent across most screens (when clock is enabled)
+- shorter version of date available when clock is present
 - Kodi label moved to lower right corner and is persistent (RSS feeds shifted accordingly)
 - option to show/hide Recordings links in TV
 - option to show/hide TV episode/season numbers on home screen (hidden by default)
